@@ -22,23 +22,35 @@ Baby Dino World to upload that channel's own videos. It is not offered to other 
 <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data
 is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>What the app accesses</h2>
+<h2>What the app accesses and why</h2>
 <p>The app asks for one permission: <code>youtube.upload</code>, to upload videos and set their
 thumbnails on the authorized channel. It sends Google only the video file, its thumbnail and its
-title, description, tags, audience ("made for kids") and publishing settings. It does not read
-viewers' data, comments, analytics or any other account information.</p>
+title, description, tags, audience ("made for kids") and publishing settings, all created by the
+channel owner. It does not read viewers' data, comments, analytics or any other account
+information.</p>
 
-<h2>Storage</h2>
-<p>The OAuth access token is stored only on the channel owner's computer, so uploads can run
-without signing in each time. The app has no server, collects no personal data, uses no cookies
-or tracking, and shares no data with third parties.</p>
+<h2>What is stored, where, and how it is shared</h2>
+<p>The only data the app stores is the OAuth access and refresh token, kept in a file on the
+channel owner's computer so uploads can run without signing in each time. The app has no server,
+collects no personal data, uses no cookies, analytics or tracking, and does not share, sell or
+transfer any data to third parties.</p>
 
 <h2>Revoking access</h2>
-<p>Access can be revoked at any time at
-<a href="https://myaccount.google.com/permissions">Google Account → Security → Third-party
-access</a>. Deleting the stored token file removes the app's access from the computer as well.</p>
+<p>Access can be revoked at any time on the
+<a href="https://security.google.com/settings/security/permissions">Google security settings
+page</a> (Google Account → Security → Third-party apps with account access).</p>
+
+<h2>Data deletion</h2>
+<p>To delete all data the app holds, delete the token file (<code>secrets/token.json</code>) from
+the computer and revoke access as described above. After revocation the token can no longer be
+used. The app keeps no other copy of any data, so nothing remains after these steps. Requests about
+data can also be sent to the contact address below and will be handled within 7 days.</p>
+
+<h2>Changes</h2>
+<p>This policy may be updated; the date at the top shows the latest version.</p>
 
 <h2>Contact</h2>
 <p><a href="mailto:gorkemcinaryazici@gmail.com">gorkemcinaryazici@gmail.com</a></p>
+<p><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></p>
 </body>
 </html>
